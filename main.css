@@ -1,0 +1,158 @@
+body {
+    background-image: url(background.png);
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 0;
+    transform: scale(1);
+    background-size: auto, cover;
+    font-family: arial;
+}
+
+#wrapper {
+    -webkit-overflow-scrolling: touch;
+    display: flex;
+    -moz-flex-direction: column;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    min-height: 100vh;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+}
+
+#main {
+    display: flex;
+    position: relative;
+    max-width: 100%;
+    z-index: 1;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    -moz-flex-grow: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-grow: 0;
+    flex-grow: 0;
+    -moz-flex-shrink: 0;
+    -webkit-flex-shrink: 0;
+    -ms-flex-shrink: 0;
+    flex-shrink: 0;
+    text-align: center;
+}
+
+#main > .inner > * {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+
+.icons {
+    padding: 0;
+}
+
+.icons li {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    z-index: 1;
+    padding: 10px 5px 0 5px;
+}
+
+.hype {
+    padding: 0 .5%;
+    color: #8706F6;
+}
+
+.twitter {
+    padding: 0 .5%;
+    color: #8706F6;
+}
+
+.twitch {
+    padding: 0 .5%;
+    color: #8706F6;
+}
+
+.youtube {
+    padding: 0 .5%;
+    color: #8706F6;
+}
+
+.discord {
+    padding: 0 .5%;
+    color: #8706F6;
+}
+
+.tiktok {
+    padding: 0 .5%;
+    color: #8706F6;
+}
+
+.instagram {
+    padding: 0 .5%;
+    color: #8706F6;
+}
+
+.hype:hover {
+    color: #34F27B;
+}
+
+.twitter:hover {
+    color: #34F27B;
+}
+
+.twitch:hover {
+    color: #34F27B;
+}
+
+.youtube:hover {
+    color: #34F27B;
+}
+
+.discord:hover {
+    color: #34F27B;
+}
+
+.tiktok:hover {
+    color: #34F27B;
+}
+
+.instagram:hover {
+    color: #34F27B;
+}
+
+.button {
+    text-decoration: none;
+    color: #8706F6;
+    border: 1px solid #8706F6;
+    background: none;
+    padding: 5px 40px;
+    position:relative;
+}
+
+.button-align {
+    position: absolute;
+    bottom: 15px;
+    right: 1;
+}
+
+.button:hover {
+    background: #34F27B;
+}
+
